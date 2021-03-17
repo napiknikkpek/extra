@@ -1,0 +1,31 @@
+---
+Checks:          
+    -*,
+    boost-*,
+    bugprone-*,
+    clang-analyzer-*,
+    cppcoreguidelines-*,
+    misc-*,
+    modernize-*,
+    performance-*,
+    portability-*,
+    readability-*,
+    -modernize-use-trailing-return-type,
+    -readability-braces-around-statements,
+    -readability-uppercase-literal-suffix,
+    -misc-non-private-member-variables-in-classes,
+    -modernize-use-nodiscard,
+    -readability-named-parameter,
+    -cppcoreguidelines-pro-bounds-constant-array-index,
+    -readability-magic-numbers,
+    -cppcoreguidelines-avoid-magic-numbers
+CheckOptions:
+    - key: readability-identifier-naming.FunctionCase
+      value: lower_case
+    - key: readability-identifier-naming.MemberCase
+      value: lower_case
+WarningsAsErrors: '*'
+HeaderFilterRegex: 'extra'
+FormatStyle: file
+User: piknik
+...

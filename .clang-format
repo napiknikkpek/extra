@@ -1,0 +1,9 @@
+---
+BasedOnStyle: Google
+IndentWidth:     2
+ObjCBlockIndentWidth: 2
+DerivePointerAlignment: false
+PointerAlignment: Left
+ColumnLimit: 80
+IncludeBlocks: Preserve
+---
