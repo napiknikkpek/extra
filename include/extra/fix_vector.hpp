@@ -73,8 +73,8 @@ class fix_vector
   }
 
   void swap(fix_vector<T>& a) noexcept {
-    std::swap(this->storage, a.storage);
-    std::swap(this->total, a.total);
+    std::swap(storage, a.storage);
+    std::swap(total, a.total);
   }
 
   iterator begin() noexcept { return storage.get(); }
